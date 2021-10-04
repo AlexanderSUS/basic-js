@@ -1,4 +1,4 @@
-// import { NotImplementedError } from '../extensions/index.js';
+import { NotImplementedError } from '../extensions/index.js';
 
 /**
  * Create a repeating string based on the given parameters
@@ -16,18 +16,19 @@
  *
  */
 export default function repeater(str, options) {
-  let separator = "**";
-  let addsep = '00';
-  let plus = "PLLUS";
-  let season = "spring, summer, autumn, winter";
-  if (arguments.length < 2) {
-    return 'Unable to determine the time of year!';
-  }
-  if (typeof(str) != "string" || season.search(str) == -1) {
-    return "Invalid date";
-  }
+  // throw new NotImplementedError('Not implemented');
+  // let separator = "**";
+  // let addsep = '00';
+  // let plus = "PLLUS";
+  // let season = "spring, summer, autumn, winter";
+  // if (arguments.length < 2) {
+  //   return 'Unable to determine the time of year!';
+  // }
+  // if (typeof(str) != "string" || season.search(str) == -1) {
+  //   return "Invalid date";
+  // }
   
 
 
-  return false;
+  // return false;
 }
